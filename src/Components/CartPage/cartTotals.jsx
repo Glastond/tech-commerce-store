@@ -1,4 +1,5 @@
 import React from "react";
+import PaypalBtn from "./PaypalBtn";
 import { ProductConsumer } from "../../Context/context";
 
 export default function cartTotals() {
@@ -20,6 +21,7 @@ export default function cartTotals() {
                 <h3>Subtotal : ${cartSubTotal}</h3>
                 <h3>Tax : ${cartTax}</h3>
                 <h3>Cart Total : ${cartTotal}</h3>
+                <PaypalBtn />
               </div>
             );
           }}
