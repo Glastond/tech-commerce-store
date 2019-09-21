@@ -4,12 +4,10 @@ import cartBcg from "../Images/storeBcg.jpeg";
 import CartSection from "../Components/CartPage/cart";
 
 const CartPage = props => {
-  console.log(props);
-
   return (
     <>
       <Hero img={cartBcg} />
-      <CartSection />
+      <CartSection history={props.history} />
     </>
   );
 };
