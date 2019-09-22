@@ -1,0 +1,13 @@
+
+<div class="card shadow-lg mr-2 d-inline-block mob">
+                        <div class="card-img-top">
+                            <img src="../assets/UI-face-3.jpg" alt="member" class="img-fluid border-radius p-4">
+                        </div>
+                        <h3 class="card-title">Aadesh Bassi</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorem
+                            minima voluptate delectus vel tempore. Voluptate reprehenderit amet quas corporis?</p>
+                        <a href="#" class="btn btn-info btn-sm mx-auto" style="max-width: 50%;text-align:center;">View
+                            Profile</a>
+                        <br>
+                        <p class="text-secondary">CEO at Google</p>
+                    </div>

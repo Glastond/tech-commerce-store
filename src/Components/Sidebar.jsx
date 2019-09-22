@@ -40,7 +40,7 @@ const SideWrapper = styled.nav`
   width: 100%;
   height: 100%;
   background: var(--mainGrey);
-  z-index: 2;
+  z-index: 100;
   border-right: 4px solid var(--primaryColor);
   transition: var(--mainTransition);
   transform: ${props => (props.show ? "translateX(0)" : "translateX(-100%)")};
@@ -67,6 +67,6 @@ const SideWrapper = styled.nav`
   }
 
   @media (min-width: 576px) {
-    width: 20rem;
+    width: 15rem;
   }
 `;

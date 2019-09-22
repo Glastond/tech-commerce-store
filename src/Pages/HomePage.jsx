@@ -1,13 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Hero from "../Components/Hero";
+// import { Link } from "react-router-dom";
+// import Hero from "../Components/Hero";
 import Services from "../Components/HomePage/Services";
 import Featured from "../Components/HomePage/Featured";
+import Testimonials from "../Components/HomePage/Testimonials";
+import Moto from "../Components/HomePage/Moto";
+
+// slideshow
+import Carousel from "../Components/Carousel";
 
 const HomePage = () => {
   return (
     <>
-      <Hero title="Awesome Gadgets" max="true">
+      <Carousel />
+      {/* <Hero title="Awesome Gadgets" max="true">
         <Link
           to="/products"
           className="main-link"
@@ -15,9 +21,11 @@ const HomePage = () => {
         >
           Our Products
         </Link>
-      </Hero>
+      </Hero> */}
       <Services />
       <Featured />
+      <Moto />
+      <Testimonials />
     </>
   );
 };

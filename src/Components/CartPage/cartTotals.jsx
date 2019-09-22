@@ -21,11 +21,13 @@ export default function cartTotals({ history }) {
                 <h3>Subtotal : ${cartSubTotal}</h3>
                 <h3>Tax : ${cartTax}</h3>
                 <h3>Cart Total : ${cartTotal}</h3>
-                <PaypalBtn
-                  history={history}
-                  cartTotal={cartTotal}
-                  clearCart={clearCart}
-                />
+                <div className="mt-5 ">
+                  <PaypalBtn
+                    history={history}
+                    cartTotal={cartTotal}
+                    clearCart={clearCart}
+                  />
+                </div>
               </div>
             );
           }}

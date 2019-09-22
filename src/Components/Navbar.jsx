@@ -34,7 +34,7 @@ const NavWrapper = styled.nav`
   padding: 1rem 1rem;
   background: var(--mainGrey);
   border-bottom: 3px solid var(--primaryColor);
-  z-index: 1;
+  z-index: 100;
   .nav-center {
     display: flex;
     align-items: center;

@@ -13,6 +13,8 @@ export default function Title({ title, center }) {
 }
 
 const TitleWrapper = styled.div`
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
   text-align: ${props => (props.center ? "center" : "left")};
   .title-underline {
     height: 0.25rem;

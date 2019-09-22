@@ -3,6 +3,7 @@ import Product from "../Product";
 import { Link } from "react-router-dom";
 import Title from "../Title";
 import { ProductConsumer } from "../../Context/context";
+import { FaArrowRight } from "react-icons/fa";
 
 export default class Featured extends Component {
   render() {
@@ -10,7 +11,7 @@ export default class Featured extends Component {
       <section className="py-5">
         <div className="container">
           {/* Title */}
-          <Title title="featured products" center="true" />
+          <Title title="Popular products" center="true" />
           {/* Products */}
           <div className="row my-5">
             <ProductConsumer>
@@ -25,7 +26,7 @@ export default class Featured extends Component {
           <div className="row mt-5">
             <div className="col text-center">
               <Link to="/products" className="main-link">
-                Our Products
+                View Products <FaArrowRight />
               </Link>
             </div>
           </div>

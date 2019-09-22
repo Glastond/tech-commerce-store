@@ -19,7 +19,6 @@ import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 import SideCart from "./Components/SideCart";
 import Footer from "./Components/Footer";
-
 function App() {
   return (
     <>

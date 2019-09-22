@@ -55,7 +55,7 @@ const CartWrapper = styled.div`
     props.show ? "translateX(0)" : "translateX(100%)"} !important ;
 
   @media (min-width: 576px) {
-    width: 20rem;
+    width: 15rem;
   }
   overflow: scroll;
   padding: 2rem;
